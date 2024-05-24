@@ -1,8 +1,8 @@
 "use strict";
-import { getGiphy } from './src/get-giphy.js'
-import { img } from './src/img.js'
-import { searchBar } from './src/search-bar.js'
-import { btnListeners } from './src/btn-listeners.js'
+import { getGiphy } from './get-giphy.js'
+import { img } from './img.js'
+import { searchBar } from './search-bar.js'
+import { btnListeners } from './btn-listeners.js'
 
 
 img()
