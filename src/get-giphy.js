@@ -1,5 +1,7 @@
-import { URL_SEARCH, API_KEY, DEFAULT_GIPHY } from '../data/constants.js'
+import { URL_SEARCH, DEFAULT_GIPHY } from '../data/constants.js'
+import { config } from '../config.js'
 import { changeBg } from './change-bg.js'
+
 export const getGiphy = async (input) => {
     const img = document.querySelector('img')
     if (input === undefined) {
@@ -8,7 +10,7 @@ export const getGiphy = async (input) => {
         return
     }
     try {
-        const response = await fetch(`${URL_SEARCH}api_key=${API_KEY}&s=${input}`, { mode: 'cors' });
+        const response = await fetch(`${URL_SEARCH}api_key=${config.API_KEY}&s=${input}`, { mode: 'cors' });
         const data = await response.json()
         img.src = data.data.images.original.url
         changeBg();
