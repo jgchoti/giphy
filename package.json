@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "prettier": "^3.2.5"
+    "prettier": "^3.2.5",
+    "save": "^2.9.0"
   },
   "type": "module"
 }
