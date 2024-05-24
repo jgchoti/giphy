@@ -1,4 +1,5 @@
-import { URL_SEARCH, API_KEY, DEFAULT_GIPHY } from '../config.js'
+import { API_KEY } from '../config.js'
+import { URL_SEARCH, DEFAULT_GIPHY } from '../data/constants.js'
 import { changeBg } from './change-bg.js'
 export const getGiphy = async (input) => {
     const img = document.querySelector('img')
