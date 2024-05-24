@@ -1,0 +1,40 @@
+#form-container {
+  text-align: center;
+}
+
+#input {
+  width: 50%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 20.5px;
+  outline: none;
+  color: #9dbfaf;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+
+button {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btn-random {
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+}
+
+form {
+  display: inline;
+}
+
+button:focus {
+  background: #00b4ccc7;
+}
